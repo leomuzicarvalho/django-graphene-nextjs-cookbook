@@ -1,0 +1,11 @@
+query allIngredients {
+  allIngredients {
+    id
+    name
+    notes
+    category {
+      id
+      name
+    }
+  }
+}
